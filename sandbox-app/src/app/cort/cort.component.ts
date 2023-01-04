@@ -12,10 +12,10 @@ export class CortComponent implements OnInit {
   ngOnInit(): void {}
 
   goHome(): void {
-    console.log('doNav 1');
+    console.log('goHome 1');
     this.router.navigateByUrl('/').then((_) => {
-      console.log('doNav 2');
+      console.log('goHome 2');
     });
-    console.log('doNav 3');
+    console.log('goHome 3');
   }
 }
